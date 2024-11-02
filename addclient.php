@@ -32,10 +32,7 @@
       $msg = "le Client a été ajouté avec succés.";
       $GLOBALS['information_message'] = $msg;      
       $client = false;      
-      //             non  header("Location:http://localhost/mini-projet/clients.php"); // REDIRECTION sur la PAGE Clients
-      //             non  exit(header("Location:clients.php")); // REDIRECTION sur la PAGE Clients
-      //             non  header("Location: clients.php"); // REDIRECTION sur la PAGE Clients !!!!!!!!!  ça plante
-      // header("Location: clients.php"); // REDIRECTION sur la PAGE Clients !!!!!!!!!  ça plante 
+      header("Location: clients.php"); // REDIRECTION sur la PAGE Clients !!!!!!!!!  ça plante 
    }
 ?>
 
