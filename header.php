@@ -61,16 +61,16 @@
         <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <!-- 4 liens -->
           <li class="nav-item">
-            <a class="nav-link <?php echo !empty($index) ? "active" : ''?>"  href="index.php">Accueil</a>
+            <a class="nav-link <?php echo !empty($index) ? 'active' : ''?>"  href="index.php">Accueil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link <?php echo !empty($article) ? "active" : ''?>" href="articles.php">Articles</a>
+            <a class="nav-link <?php echo !empty($article) ? 'active' : ''?>" href="articles.php">Articles</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link <?php echo !empty($client) ? "active" : ''?>" href="clients.php">Clients</a>
+            <a class="nav-link <?php echo !empty($client) ? 'active' : ''?>" href="clients.php">Clients</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link <?php echo !empty($commande) ? "active" : ''?>" href="commandes.php">Commandes</a>
+            <a class="nav-link <?php echo !empty($commande) ? 'active' : ''?>" href="commandes.php">Commandes</a>
           </li>          
           <!-- 1 liens désactivé -->
         </ul>
